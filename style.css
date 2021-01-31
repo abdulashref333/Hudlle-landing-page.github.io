@@ -1,0 +1,88 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    background-color:  hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Open Sans";
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90vw;
+    height: 100vh;
+    padding: 10vh 0;
+    margin: 0 auto;
+
+}
+.main-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-sec {
+   width: 700px;
+   height: 506px;
+   margin-right: 2vw;
+   margin-top: 5vh;
+}
+.right-sec {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 2vw;
+}
+.right-sec h2 {
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    margin-bottom: 0;
+}
+.right-sec p {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: hsl(0, 0%, 100%);
+    color: blueviolet;
+    padding: .75vh 1.95vw;
+    border-radius: 2.5vw;
+    box-shadow: 3px 3px 7px rgb(0, 0, 0);
+    z-index: 1;
+}
+.btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.social-links ul{
+    list-style: none;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    /* padding: 2rem; */
+}
+.social-links > ul > li > a{
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    width: auto;
+    height: auto;
+}
+.so-links:hover {
+    color:  Magenta;
+}
